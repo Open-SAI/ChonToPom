@@ -4,4 +4,6 @@ Yet Another Pomodore Tool in bash, light, easy, not intrusive, few dependencies 
 
 ./chontoBash.sh 25 "My pomodore cicle"
 
-Chonto will create if no exist a CSV file with four columns: timestamp, minutes worked, comment/task name, Finished (FULL)/Canceled (BREAK). This file can be used to create analytics in other tool.  
+Chonto will create if no exist a CSV file with four columns: timestamp, minutes worked, comment/task name, Finished (FULL)/Canceled (BREAK). This file can be used to create analytics in other tool. 
+
+![Screen Capture](https://github.com/Open-SAI/ChonToPom/blob/master/ChontoRunning.png) 
