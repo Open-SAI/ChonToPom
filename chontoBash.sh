@@ -4,9 +4,9 @@ print_help (){
 	echo USAGE FROM TERMINAL: 
 	echo ./chontoBash.sh NumMinutesToWork \"My Task to work in double quotes...\"
 	echo If not exist, chonto will create the log file log.chonto, csv file to make data analytics:
-	echo TimeStamp, TotalMinutes, Task worked...
-	echo TimeStamp, TotalMinutes, Task worked...
-	echo TimeStamp, TotalMinutes, Task worked...
+	echo "TimeStamp, TotalMinutes, Task worked..., status: completed (FULL) or incomplete task (BREAK)" 
+	echo "TimeStamp, TotalMinutes, Task worked..., status: completed (FULL) or incomplete task (BREAK)" 
+	echo "TimeStamp, TotalMinutes, Task worked..., status: completed (FULL) or incomplete task (BREAK)" 
 	echo .
 	echo .
 	echo .
