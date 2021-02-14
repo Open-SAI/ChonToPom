@@ -29,7 +29,6 @@ log_chonto (){
 	mplayer glass.ogg > /dev/null 2>&1
 	tput clear
 	echo "Task finished logged :)"
-	tput cnorm
 }
 
 print_timer (){
@@ -63,7 +62,6 @@ for (( MINSCount=1; MINSCount<=$MINS; MINSCount++))
 do
 	for (( SECSCount=1; SECSCount<=60; SECSCount++))
 	do
-		#clear
 		tput clear
 		print_timer " $(($MINS-$MINSCount)) Minutes " "$((60-$SECSCount)) Seconds to rest... " "$(tput lines)" "$(tput cols)"
 		sleep 1
